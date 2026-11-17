@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# Datos locales (la BD se regenera sola con 100 equipos de ejemplo)
+database/*.db
+assets/equipos/*
+!assets/equipos/.gitkeep
+!database/.gitkeep
+
+# Reportes y exportaciones generadas
+*.csv
+reportes_generados/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
